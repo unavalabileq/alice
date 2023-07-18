@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Saffron Bre Sobek Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Saffron Bre Sobek Quiz</h1>
+          <nav>
+      <ul>
+        <li class="active"><a href="homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="friend.html">Friend</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Test your knowledge of Saffron Bre Sobek!</h2>
+    <form>
+      <p>1. What are the names of Saffron's dogs?</p>
+      <label><input type="radio" name="question1" value="MF">Maggie and Fred</label><br>
+      <label><input type="radio" name="question1" value="JD">Joe and Donald</label><br>
+      <label><input type="radio" name="question1" value="RM">Rylee and Magan</label><br>
+      
+      <p>2. Where did Saffron go to school?</p>
+      <label><input type="radio" name="question2" value="WIS">West Island International School</label><br>
+      <label><input type="radio" name="question2" value="KIS">Kellet International School</label><br>
+      <label><input type="radio" name="question2" value="KGV">KGV International School</label><br>
+      
+      <p>3. What is one of Saffron's personal interests?</p>
+      <label><input type="radio" name="question3" value="TabTen">Playing table tennis</label><br>
+      <label><input type="radio" name="question3" value="cooking">Cooking and baking</label><br>
+      <label><input type="radio" name="question3" value="jogging">Jogging or running</label><br>
+      
+      <button type="button" onclick="checkAnswers()">Submit Answers</button>
+    </form>
+    
+    <div id="results"></div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Saffron Bre Sobek</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

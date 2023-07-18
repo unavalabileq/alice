@@ -1,0 +1,185 @@
+body {
+  font-family: 'CustomFont','Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.png);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sum {
+    color:#443627;
+}
+
+.welc {
+    color:#443627;
+}
+
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sun{
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.active {
+  background-color:#cffcff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1583511654199-9ed604e39a24');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.squad {
+    display: block;
+    margin: 0 auto;
+}
+
+.cta {
+  background-color: #725E54;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #403732;
+}
+
+.about {
+  padding: 20px;
+  margin-bottom: 40px;
+    color:#443627;
+}
+
+.about h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 10px 0;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .about h3 {
+    font-size: 20px;
+  }
+  
+  .about p {
+    font-size: 14px;
+  }
+  
+  footer {
+    font-size: 14px;
+  }
+}
+
+@font-face{
+    font-family: "CustomFont";
+    src: url("rodit_bugs-webfont.woff")format("woff");
+}
